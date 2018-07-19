@@ -1,1 +1,1 @@
-UPDATE characters SET species = 'martian' WHERE LAST INSERT ROW();
+UPDATE characters SET species = 'martian' ORDER BY id LIMIT 1;
